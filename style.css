@@ -8,6 +8,7 @@ main {
     width: 1600px;
     max-width: 100%;
     top: 78px;
+    background: #FFFFFF;
     }
 
 .header, .footer {

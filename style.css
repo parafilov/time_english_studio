@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 1600px;
+    max-width: 100%;
+    top: 78px;
+    }
+
+.header, .footer {
+width: 100%;
+background-color: black;
+height: 78px;
+text-align: center;
+}
+
+.logo_ellipse_white {
+margin-left: 59px;
+margin-top: 12px;
+vertical-align: middle;
+display: inline-block;
+}
+
+.shedule, .phone, .address, .contacts, .author {
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 33px;
+color: #FFFFFF;
+display: inline-block;
+vertical-align: middle;
+}
+
+.shedule {
+width: 400px;
+}
+
+.contacts {
+width: 749px;
+}
+
+.icon_menu {
+width: 44px;
+height: 41px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.address {
+width: 442px;
+}
+
+.phone {
+width: 307px;
+}
+
+.author {
+width: 510px;
+}
+
+.hat {
+background-image: url(images/background_hat.png);
+width: 1600px;
+height: 908px;
+}
+
+.logo_ig {
+position: absolute;
+margin-left: 58px;
+top: 393px;
+}
+
+.logo_fb {
+position: absolute;
+margin-left: 58px;
+top: 479.91px;
+}
+
+.logo_mail {
+position: absolute;
+margin-left: 58px;
+top: 562.26px;
+}
+
+.logo_time {
+position: absolute;
+margin-top: 228px;
+margin-left: 439px;
+}
+
+.logo_button_sign {
+position: absolute;
+left: 609px;
+top: 732px;
+}
+
+.list {
+position: absolute;
+left: 109px;
+top: 909px;
+}
+

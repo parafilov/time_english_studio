@@ -2,11 +2,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
-    width: 1600px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1600px;
     top: 78px;
     background: #FFFFFF;
 }
@@ -18,7 +22,6 @@ main {
 .container {
     margin: 0 auto;
     width: 100%;
-    background: red;
     max-width: 1500px;
 }
 .header .container {
@@ -27,11 +30,19 @@ main {
     align-items: center;
 }
 
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header, .footer {
-    width: 100%;
+   
+    width: 100vw;
+    min-width: 1600px;
     background-color: black;
     height: 78px;
-    text-align: center;
+    text-align: center; 
 }
 
 .logo_ellipse_white {
@@ -64,6 +75,7 @@ main {
     height: 41px;
     display: inline-block;
     vertical-align: middle;
+    background-image: url(images/icon_menu.png);
 }
 
 .address {
@@ -72,6 +84,24 @@ main {
 
 .phone {
     width: 307px;
+}
+
+.phone a {
+    color: white;
+    text-decoration: none;
+}
+
+.phone a:hover {
+    color: #45D6DF;
+}
+
+.address a:hover {
+    color: #45D6DF;
+}
+
+.address a {
+    color: white;
+    text-decoration: none;
 }
 
 .author {
@@ -87,19 +117,30 @@ main {
 .logo_ig {
     position: absolute;
     margin-left: 58px;
-    top: 393px;
+    top: 395px;
+    background-image: url(images/logo_ig.png);
 }
 
 .logo_fb {
     position: absolute;
     margin-left: 58px;
-    top: 479.91px;
+    top: 480px;
+    background-image: url(images/logo_fb.png);
 }
 
 .logo_mail {
     position: absolute;
     margin-left: 58px;
-    top: 562.26px;
+    top: 560px;
+    background-image: url(images/logo_mail.png);
+}
+
+.hat .logo_ig {
+    height: 42px;
+}
+
+.hat .logo_fb {
+    height: 42px;
 }
 
 .logo_time {
@@ -108,15 +149,9 @@ main {
     margin-left: 439px;
 }
 
-.logo_button_sign {
-    position: absolute;
-    left: 609px;
-    top: 732px;
-}
-
 .list {
     position: absolute;
-    left: 109px;
+    padding-left: 109px;
     top: 909px;
 }
 
@@ -135,8 +170,18 @@ main {
     padding: 10px 10px 10px 10px;
     opacity: 1;
     transition: opacity .2s ease-in-out;
+
+    position: relative;
+    left: 609px;
+    top: 654px;
 }
 
 .btn:hover {
     opacity: .7;
+}
+
+.block1_1, .block1_2 {
+    display: inline-block;
+    width: 800px;
+    height: 939px;
 }

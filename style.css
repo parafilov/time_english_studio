@@ -186,3 +186,18 @@ main {
     align-items: center;
 }
 
+
+
+
+
+
+
+
+h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}

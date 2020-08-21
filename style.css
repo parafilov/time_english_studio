@@ -180,8 +180,9 @@ main {
     opacity: .7;
 }
 
-.block1_1, .block1_2 {
-    display: inline-block;
-    width: 800px;
-    height: 939px;
+.line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+

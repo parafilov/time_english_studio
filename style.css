@@ -206,10 +206,12 @@ main {
     justify-content: space-between;
     align-items: center;
     flex-basis: 940px;
+    
 }
 
 .block1_1, .block1_2 {
     width: 800px;
+    
 } 
 
 .logo_ellipse_black {
@@ -226,13 +228,14 @@ h1 {
     font-size: 36px;
     line-height: 49px;
     color: #000000;
+    top: 50px;
 }
 
 p {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 49px;
     color: #000000;
 }

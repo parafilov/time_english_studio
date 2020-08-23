@@ -153,25 +153,27 @@ main {
     top: 909px;
 }
 
-.banner-btn {
+.banner-btn, .line-btn {
     display: inline-block;
     background: #45D6DF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 35px;
-    font-size: 36px;
-    line-height: 1.36;
     color: #000000;
     text-decoration: none;
-    min-width: 380px;
     max-width: 100%;
     text-align: center;
     padding: 10px 10px 10px 10px;
     opacity: 1;
     transition: opacity .2s ease-in-out;
+}
 
+.banner-btn {
+    min-width: 380px;
     position: relative;
     left: 609px;
     top: 654px;
+    font-size: 36px;
+    line-height: 1.36;
 }
 
 .banner-btn:hover {
@@ -179,33 +181,22 @@ main {
 }
 
 .line-btn {
-    display: inline-block;
-    background: #45D6DF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 35px;
+    min-width: 254px;
+    margin: auto auto auto 273px;
     font-size: 28px;
     line-height: 1.36;
-    color: #000000;
-    text-decoration: none;
-    min-width: 254px;
-    max-width: 100%;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    opacity: 1;
-    transition: opacity .2s ease-in-out;
-    margin: auto auto auto 273px;
 }
 
 .line-btn:hover {
     opacity: .7;
 }
 
-.line1 {
+.line {
     display: flex;
     align-items: center;
 }
 
-.block1_1, .block1_2 {
+.block {
     width: 800px;
 } 
 

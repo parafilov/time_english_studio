@@ -193,8 +193,7 @@ main {
     padding: 10px 10px 10px 10px;
     opacity: 1;
     transition: opacity .2s ease-in-out;
-    position: relative;
-    left: 273px;
+    margin: auto auto auto 273px;
 }
 
 .line-btn:hover {
@@ -203,23 +202,12 @@ main {
 
 .line1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-basis: 940px;
-    
 }
 
 .block1_1, .block1_2 {
     width: 800px;
-    
 } 
-
-.logo_ellipse_black {
-    position: relative;
-    left: 50px;
-    top: 50px;
-    
-}
 
 h1 {
     font-family: Open Sans;
@@ -228,7 +216,19 @@ h1 {
     font-size: 36px;
     line-height: 49px;
     color: #000000;
-    top: 50px;
+    margin: auto;
+}
+
+.partition {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 p {

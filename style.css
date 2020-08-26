@@ -222,11 +222,24 @@ h1 {
     align-items: stretch;
 }
 
-p {
+p, ul {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 49px;
     color: #000000;
+}
+
+.colortext {
+    color: #45D6DF;
+}
+
+.slogan {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
 }

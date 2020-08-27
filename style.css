@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-weight: 400; /*normal*/
 }
 
 main {
@@ -35,12 +38,12 @@ main {
 }
 
 .header, .footer {
-   
+
     width: 100vw;
     min-width: 1600px;
     background-color: black;
     height: 78px;
-    text-align: center; 
+    text-align: center;
 }
 
 .logo_ellipse_white {
@@ -110,26 +113,34 @@ main {
     background-image: url(images/background_hat.png);
     width: 1600px;
     height: 908px;
+    position: relative;
+}
+
+.soc-wrap {
+    position: absolute;
+    top: 50%;
+    left: 58px;
+    transform: translateY(-50%);
+}
+
+.soc-wrap a{
+    display: block;
+    width: 45px;
+    height: 41px;
+}
+.soc-wrap a + a{
+    margin-top: 45px;
 }
 
 .logo_ig {
-    position: absolute;
-    margin-left: 58px;
-    top: 395px;
     background-image: url(images/logo_ig.png);
 }
 
 .logo_fb {
-    position: absolute;
-    margin-left: 58px;
-    top: 480px;
     background-image: url(images/logo_fb.png);
 }
 
 .logo_mail {
-    position: absolute;
-    margin-left: 58px;
-    top: 560px;
     background-image: url(images/logo_mail.png);
 }
 
@@ -142,9 +153,8 @@ main {
 }
 
 .logo_time {
-    position: absolute;
-    margin-top: 228px;
-    margin-left: 439px;
+    padding-top: 228px;
+    text-align: center;
 }
 
 .list {
@@ -198,7 +208,7 @@ main {
 
 .block {
     width: 800px;
-} 
+}
 
 h1 {
     font-family: Open Sans;

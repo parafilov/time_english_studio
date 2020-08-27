@@ -243,3 +243,32 @@ p, ul {
     font-size: 36px;
     line-height: 49px;
 }
+
+.li_address {
+    list-style-image: url(images/logo_map_small.png);
+}
+
+.li_phone {
+    list-style-image: url(images/logo_phone_small.png);
+}
+
+.li_mail {
+    list-style-image: url(images/logo_mail_small.png);
+}
+
+.li_ig {
+    list-style-image: url(images/logo_ig_small.png);
+}
+
+.li_fb {
+    list-style-image: url(images/logo_fb_small.png);
+}
+
+ul a {
+    color: black;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: #45D6DF;
+}

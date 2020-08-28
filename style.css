@@ -236,7 +236,7 @@ h1 {
 p, ul {
     font-family: Open Sans;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 28px;
     line-height: 49px;
     color: #000000;
@@ -282,4 +282,8 @@ ul a {
 
 ul a:hover {
     color: #45D6DF;
+}
+
+.conclusion {
+    text-align: center;
 }

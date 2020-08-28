@@ -38,18 +38,16 @@ main {
 }
 
 .header, .footer {
-
-    width: 100vw;
+    width: 98vw;
     min-width: 1600px;
     background-color: black;
-    height: 78px;
     text-align: center;
 }
 
 .logo_ellipse_white {
-    margin-top: 12px;
     vertical-align: middle;
     display: inline-block;
+    padding: 12px;
 }
 
 .shedule, .phone, .address, .contacts, .author {
@@ -157,10 +155,24 @@ main {
     text-align: center;
 }
 
+.btn-holder {
+    text-align: center;
+}
+
+.hat-btn {
+    padding-top: 50px;
+}
+
 .list {
+    width: 100%;
     position: absolute;
-    padding-left: 109px;
-    top: 909px;
+    bottom: 0px;
+}
+
+.list ul {
+   
+    display: flex;
+    justify-content: space-around;
 }
 
 .banner-btn, .line-btn {
@@ -179,9 +191,7 @@ main {
 
 .banner-btn {
     min-width: 380px;
-    position: relative;
-    left: 609px;
-    top: 654px;
+
     font-size: 36px;
     line-height: 1.36;
 }
@@ -192,7 +202,6 @@ main {
 
 .line-btn {
     min-width: 254px;
-    margin: auto auto auto 273px;
     font-size: 28px;
     line-height: 1.36;
 }
@@ -203,11 +212,16 @@ main {
 
 .line {
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    justify-content: center;
 }
 
 .block {
-    width: 800px;
+    width: 50%;
+}
+
+.left {
+    text-align: right;
 }
 
 h1 {
@@ -215,7 +229,7 @@ h1 {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 49px;
+    line-height: 1.36px;
     color: #000000;
     margin: auto;
 }
@@ -238,7 +252,7 @@ p, ul {
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
-    line-height: 49px;
+    line-height: 1.36;
     color: #000000;
 }
 
@@ -252,7 +266,7 @@ p, ul {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 49px;
+    line-height: 1.36px;
 }
 
 .li_address {
@@ -286,4 +300,8 @@ ul a:hover {
 
 .conclusion {
     text-align: center;
+}
+
+.b_text {
+
 }

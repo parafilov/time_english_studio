@@ -22,19 +22,15 @@ img {
 .container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1600px;
 }
 
-.header .container {
+.header .container, .footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* max-width: 1500px; */
+    padding: 0 50px 0 50px;
 }
 
 .header, .footer {
@@ -59,44 +55,22 @@ img {
     vertical-align: middle;
 }
 
-.shedule {
-
-}
-
 .icon_menu {
     width: 44px;
     height: 41px;
     display: inline-block;
     vertical-align: middle;
-    background-image: url(images/icon_menu.png);
 }
 
-.address {
-}
-
-.phone {
-}
-
-.phone a {
+.phone a, .address a {
     color: white;
     text-decoration: none;
 }
 
-.phone a:hover {
+.phone a:hover, .address a:hover {
     color: #45D6DF;
 }
 
-.address a:hover {
-    color: #45D6DF;
-}
-
-.address a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.author {
-}
 
 .hat {
     background-image: url(images/background_hat.png);
@@ -150,7 +124,7 @@ img {
 }
 
 .hat-btn {
-    padding-top: 50px;
+    padding-top: 125px;
 }
 
 .list {
@@ -293,5 +267,11 @@ ul a:hover {
 }
 
 .b_text {
+    padding: 50px;
 
+    
+}
+
+.block img {
+    height: 100%;
 }

@@ -2,15 +2,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-weight: 400; /*normal*/
 }
 
 main {
     width: 100%;
-    max-width: 1600px;
     top: 78px;
     background: #FFFFFF;
 }
@@ -18,12 +14,17 @@ main {
 *{
  box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
+
 
 .container {
     margin: 0 auto;
     width: 100%;
     max-width: 1500px;
 }
+
 .header .container {
     display: flex;
     justify-content: space-between;
@@ -37,8 +38,6 @@ main {
 }
 
 .header, .footer {
-    width: 98vw;
-    min-width: 1600px;
     background-color: black;
     text-align: center;
 }
@@ -61,11 +60,7 @@ main {
 }
 
 .shedule {
-    width: 400px;
-}
 
-.contacts {
-    width: 749px;
 }
 
 .icon_menu {
@@ -73,14 +68,13 @@ main {
     height: 41px;
     display: inline-block;
     vertical-align: middle;
+    background-image: url(images/icon_menu.png);
 }
 
 .address {
-    width: 442px;
 }
 
 .phone {
-    width: 307px;
 }
 
 .phone a {
@@ -97,17 +91,15 @@ main {
 }
 
 .address a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .author {
-    width: 510px;
 }
 
 .hat {
     background-image: url(images/background_hat.png);
-    width: 1600px;
     height: 908px;
     position: relative;
 }
@@ -168,7 +160,7 @@ main {
 }
 
 .list ul {
-   
+
     display: flex;
     justify-content: space-around;
 }

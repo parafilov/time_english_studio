@@ -233,6 +233,10 @@ p, ul {
     line-height: 1.36px;
 }
 
+.slogan_b {
+    font-weight: 600;
+}
+
 .li_address {
     list-style-image: url(images/logo_map_small.png);
 }

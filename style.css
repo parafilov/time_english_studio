@@ -202,13 +202,14 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 10%;
 }
 
 .section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* stretch */
+    height: 100%;
 }
 
 p, ul {
@@ -268,8 +269,10 @@ ul a:hover {
 
 .b_text {
     padding: 50px;
-
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* або slogan притягти вниз */
 }
 
 .block img {

@@ -188,14 +188,13 @@ img {
     text-align: right;
 }
 
-h1 {
+.h1 {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 1.36px;
     color: #000000;
-    margin: auto;
 }
 
 .partition {

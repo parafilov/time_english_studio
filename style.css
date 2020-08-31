@@ -190,7 +190,7 @@ img {
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 1.36px;
+    line-height: 1.36;
     color: #000000;
 }
 
@@ -198,14 +198,10 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10%;
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
+    text-align: center;
 }
 
 p, ul {
@@ -269,10 +265,12 @@ ul a:hover {
 
 .b_text {
     padding: 50px;
+}
+
+.b_text_address {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* або slogan притягти вниз */
 }
 
 .block img {

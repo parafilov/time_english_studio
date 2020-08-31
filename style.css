@@ -72,6 +72,7 @@ img {
     background-image: url(images/background_hat.png);
     height: 908px;
     position: relative;
+    /* background-size: cover; */
 }
 
 .soc-wrap {

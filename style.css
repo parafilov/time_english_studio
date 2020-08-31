@@ -7,7 +7,6 @@ body {
 
 main {
     width: 100%;
-    top: 78px;
     background: #FFFFFF;
 }
 
@@ -35,12 +34,9 @@ img {
 
 .header, .footer {
     background-color: black;
-    text-align: center;
 }
 
 .logo_ellipse_white {
-    vertical-align: middle;
-    display: inline-block;
     padding: 12px;
 }
 
@@ -188,7 +184,7 @@ img {
     text-align: right;
 }
 
-.h1 {
+.section-title {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;

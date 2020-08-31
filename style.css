@@ -185,7 +185,9 @@ img {
     text-align: right;
 }
 
-.section-title {
+.section {
+    text-align: center;
+    position: relative;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
@@ -194,14 +196,26 @@ img {
     color: #000000;
 }
 
-.partition {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.section::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 61px;
+    width: 64px;
+    background: url(images/logo_ellipse_black.png);
+    background-size: contain;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.section {
-    text-align: center;
+.section::after {
+    content: '';
+    position: absolute;
+    height: 41px;
+    width: 471px;
+    background: url(images/logo_line.png);
+    display: block;
+    background-size: contain;
 }
 
 p, ul {

@@ -10,9 +10,10 @@ main {
     background: #FFFFFF;
 }
 
-*{
- box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
+
 img {
     max-width: 100%;
 }
@@ -31,6 +32,12 @@ img {
     /* max-width: 1500px; */
     padding: 0 50px 0 50px;
 }
+@media (max-width: 1400px) {
+    .header .container, .footer .container {
+        padding: 0;
+    }
+}
+
 
 .header, .footer {
     background-color: black;
@@ -49,6 +56,20 @@ img {
     color: #FFFFFF;
     display: inline-block;
     vertical-align: middle;
+}
+
+@media (max-width: 1400px) {
+    .phone {
+        font-size: 16px;
+    }
+
+    .shedule {
+        display: none;
+    }
+
+    .address {
+        display: none;
+    }
 }
 
 .icon_menu {
@@ -82,12 +103,13 @@ img {
     transform: translateY(-50%);
 }
 
-.soc-wrap a{
+.soc-wrap a {
     display: block;
     width: 45px;
     height: 41px;
 }
-.soc-wrap a + a{
+
+.soc-wrap a + a {
     margin-top: 45px;
 }
 

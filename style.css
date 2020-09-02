@@ -2,7 +2,7 @@
 
 body {
     font-family: Open Sans;
-    font-weight: 400; /*normal*/
+    font-weight: 400; 
 }
 
 main {
@@ -92,7 +92,6 @@ img {
     background-image: url(images/background_hat.png);
     height: 908px;
     position: relative;
-    /* background-size: cover; */
 }
 
 .soc-wrap {
@@ -226,8 +225,6 @@ img {
     width: 64px;
     background: url(images/logo_ellipse_black.png);
     background-size: cover;
-    /* top: 50%;
-    transform: translateY(-50%); */
 }
 
 .section::after {

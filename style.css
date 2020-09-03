@@ -252,6 +252,13 @@ img {
     line-height: 1.36;
 }
 
+@media (max-width: 767px) {
+    .line-btn {
+        min-width: 140px;
+        font-size: 16px;
+    } 
+}
+
 .line-btn:hover {
     opacity: .7;
 }

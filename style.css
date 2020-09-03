@@ -322,13 +322,13 @@ p, ul {
 }
 
 @media (max-width: 1199px) {
-    .p, .ul {
+    p, ul {
         font-size: 22px;
     }
 }
 
 @media (max-width: 767px) {
-    .p, .ul {
+    p, ul {
         font-size: 16px;
     }
 }
@@ -385,6 +385,18 @@ ul a:hover {
 
 .b_text {
     padding: 50px;
+}
+
+@media (max-width: 1199px) {
+    .b_text {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .b_text {
+        padding: 10px;
+    }
 }
 
 .b_text_address {

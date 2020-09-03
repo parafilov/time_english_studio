@@ -96,6 +96,8 @@ img {
 .hat {
     background-image: url(images/background_hat.png);
     height: 908px;
+    /* background-size: cover;
+    height: calc(100vh - 80px); */
     position: relative;
 }
 
@@ -186,6 +188,7 @@ img {
 
 .hat-btn {
     padding-top: 125px;
+    /* 75 */
 }
 
 .list {

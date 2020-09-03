@@ -304,7 +304,7 @@ img {
     background-size: cover;
 }
 
-/* .section::after {
+.section::after {
     content: '';
     position: absolute;
     height: 41px;
@@ -313,7 +313,7 @@ img {
     display: block;
     background-size: contain;
     margin-left: 64px;
-} */
+}
 
 p, ul {
     font-family: Open Sans;

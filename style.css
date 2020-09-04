@@ -94,14 +94,14 @@ img {
 
 .hat {
     background-image: url(images/background_hat.png);
-    height: 908px;
+    /* height: 908px; */
     position: relative;
 
-    /* background-size: cover;
+    background-size: cover;
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
-    justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .soc-wrap {
@@ -165,7 +165,8 @@ img {
 }
 
 .logo_time {
-    padding-top: 228px;
+    /* padding-top: 228px; */
+
     text-align: center;
 }
 
@@ -189,14 +190,14 @@ img {
     text-align: center;
 }
 
-.hat-btn {
+/* .hat-btn {
     padding-top: 125px;
-    /* 75 */
-}
+    /* 75 *
+} */
 
 .list {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0px;
 }
 

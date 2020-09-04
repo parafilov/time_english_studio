@@ -293,6 +293,22 @@ img {
     }
 }
 
+@media (max-width: 767px) {
+    .block {
+        width: 100%;
+    }
+    .line {
+        display: block;
+        object-fit: none;
+        height: auto;
+    }
+    .block {
+        height: 354px;
+        overflow: hidden;
+    }
+
+}
+
 .left {
     text-align: right;
 }
@@ -428,14 +444,14 @@ ul a:hover {
     }
 }
 
-.b_text_address {
+/* .b_text_address {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
+} */
 
 .block_img {
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     height: 100%;
 }

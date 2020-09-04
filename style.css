@@ -303,13 +303,12 @@ img {
         height: auto;
     }
     .block {
-        height: 354px;
+        height: 375px;
         overflow: hidden;
     }
     .b_text {
         margin-top: 50px;
     }
-
 }
 
 .left {

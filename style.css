@@ -95,9 +95,13 @@ img {
 .hat {
     background-image: url(images/background_hat.png);
     height: 908px;
-    /* background-size: cover;
-    height: calc(100vh - 80px); */
     position: relative;
+
+    /* background-size: cover;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
 }
 
 .soc-wrap {

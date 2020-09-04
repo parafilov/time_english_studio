@@ -328,13 +328,12 @@ img {
 
 .section::after {
     content: '';
-    position: absolute;
-    height: 41px;
-    width: 471px;
+    position: relative;
+    height: 31px;
     background: url(images/logo_line.png);
     display: block;
     background-size: contain;
-    margin-left: 64px;
+    background-repeat: no-repeat;
 }
 
 p, ul {

@@ -284,15 +284,6 @@ img {
     border: none;
 }
 
-@media (max-width: 420px) {
-    .block {
-        width: 100%;
-    }
-    .block_img {
-        display: none;
-    }
-}
-
 @media (max-width: 767px) {
     .block {
         width: 100%;
@@ -308,6 +299,16 @@ img {
     }
     .b_text {
         margin-top: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .block {
+        width: 100%;
+        height: auto;
+    }
+    .block_img {
+        display: none;
     }
 }
 

@@ -60,7 +60,6 @@ img {
     .phone {
         font-size: 16px;
     }
-
     .shedule, .address, .author {
         font-size: 12px;
     }
@@ -166,7 +165,6 @@ img {
 
 .logo_time {
     /* padding-top: 228px; */
-
     text-align: center;
 }
 
@@ -214,7 +212,6 @@ img {
 }
 
 .list ul {
-
     display: flex;
     justify-content: space-around;
 }
@@ -273,6 +270,14 @@ img {
     justify-content: center;
 }
 
+@media (max-width: 767px) {
+    .line {
+        display: block;
+        object-fit: none;
+        height: auto;
+    }
+}
+
 @media (max-width: 420px) {
     .line {
         display: block;
@@ -286,19 +291,9 @@ img {
 
 @media (max-width: 767px) {
     .block {
-        width: 100%;
-    }
-    .line {
-        display: block;
-        object-fit: none;
-        height: auto;
-    }
-    .block {
         height: 375px;
         overflow: hidden;
-    }
-    .b_text {
-        margin-top: 50px;
+        width: 100%;
     }
 }
 
@@ -306,9 +301,6 @@ img {
     .block {
         width: 100%;
         height: auto;
-    }
-    .block_img {
-        display: none;
     }
 }
 
@@ -444,6 +436,7 @@ ul a:hover {
 @media (max-width: 767px) {
     .b_text {
         padding: 10px;
+        margin-top: 50px;
     }
 }
 
@@ -457,4 +450,10 @@ ul a:hover {
     width: 100%;
     object-fit: cover;
     height: 100%;
+}
+
+@media (max-width: 420px) {
+    .block_img {
+        display: none;
+    }
 }

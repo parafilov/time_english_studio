@@ -306,6 +306,9 @@ img {
         height: 354px;
         overflow: hidden;
     }
+    .b_text {
+        margin-top: 50px;
+    }
 
 }
 

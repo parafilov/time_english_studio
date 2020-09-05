@@ -4,6 +4,10 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function myFunction2() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+}
+
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
@@ -19,12 +23,8 @@ window.onclick = function(event) {
     }
   }
 
-function myFunction2() {
-    document.getElementById("myDropdown2").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn2')) {
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
   
       var dropdowns = document.getElementsByClassName("dropdown-content2");
       var i;

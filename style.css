@@ -459,7 +459,7 @@ ul a:hover {
 }
 
 /* Dropdown Button */
-.dropbtn, .dropbtn2 {
+.dropbtn {
     width: 44px;
     height: 41px;
     display: inline-block;
@@ -468,7 +468,7 @@ ul a:hover {
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus, .dropbtn2:hover, .dropbtn2:focus    {
+.dropbtn:hover, .dropbtn:focus {
     background-color: #45D6DF;
     border-radius: 10px;
 }

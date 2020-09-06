@@ -232,8 +232,12 @@
             <div class="author">made by Gumenyuk 2020</div>
 
             <div class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn"></a>
-                  <div id="myDropdown2" class="dropdown-content dropdown-content2">
+                <a href="javascript:void(0)" class="dropbtn"></a> <!--  javascript:void(0) -- заглушка для href по
+                семантиці тег <а> повинен мати обов'язковий атрибут href
+                  # -- теж можна використовувати як заглушку але при кліку буде додаватись # в урл,
+                   на продакшині це не ок -->
+                  <div id="myDropdown2" class="dropdown-content dropdown-content2"> <!-- .dropdown-content  додав бо по
+                  цому класу ми буремо всі дропдауни -->
                     <a href="#line1">Дистанційне навчання</a>
                     <a href="#line2">Індивідуальне/групове навчання</a>
                     <a href="#line3">Переклад документів</a>
@@ -247,5 +251,6 @@
 </footer>
 
 <script src="script/menu.js"></script>
+<!--  скріпти перед  закриваючим тегом body -->
 
 </body>

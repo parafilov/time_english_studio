@@ -373,6 +373,11 @@ p, ul {
     }
 }
 
+/* #map {
+    width:100%;
+    height:100%;
+} */
+
 .colortext {
     color: #45D6DF;
 }

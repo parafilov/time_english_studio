@@ -40,12 +40,14 @@ $('#form').submit(function (e) {
         data: 'action=send_form&' + $(this).serialize(),
         success: function (data) {
             $('form').trigger('reset');
-            console.log('Submission was successful.');
-            console.log(data);
+            $('.modal-content').append('<p class="message">Надіслано успішно</p>');
+            setTimeout(function () {
+                $('#myModal').modal('hide');
+                $('.modal-content').find('.message').remove();
+            }, 5000);
         },
         error: function (data) {
             console.log('An error occurred.');
-            console.log(data);
         },
     });
 

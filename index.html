@@ -48,7 +48,30 @@
             <div class="logo_time"><img src="images/logo_time.png" alt="Логотип Time - English studio"></div>
 
             <div class="btn-holder hat-btn">
-                <a class='banner-btn' href="#">Записатись</a>
+                <button id="myBtn" class='banner-btn btn'>Записатись</button>
+
+                <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+
+                            <span class="close">×</span>
+                            
+                            <form name="form">
+                                <p>Як до Вас звертатись?</p>
+                                <input type="text" name="name" form="form" placeholder="Ваше Ім'я" required>
+                                <p>Номер контактного телефону</p>
+                                <input type="tel" name="tel" form="form" placeholder="Телефон" required pattern="">
+
+                                <p><input type="submit" value="Записатись" class="line-btn" ></p>
+                                
+                            </form>
+                            
+                        </div>
+                    
+                    </div>
+
             </div>
 
             <div class="list">
@@ -84,7 +107,7 @@
                 <strong>Studying at home- is a New Normal :-)</strong>
             </p>
             <div class="btn-holder">
-                <a class='line-btn' href="#">Записатись</a>
+                <button class='line-btn btn'>Записатись</button>
             </div>
         </div>
 
@@ -121,7 +144,7 @@
                 Вартість: індивідуально - 120 грн/год , ЗНО - 150 грн/год, у групі - 600 грн за 8 занять.
             </p>
             <div class="btn-holder">
-                <a class='line-btn' href="#">Записатись</a>
+                <button class='line-btn btn'>Записатись</button>
             </div>
         </div>
     </div>
@@ -153,7 +176,7 @@
                 грн/документ.
             </p>
             <div class="btn-holder">
-                <a class='line-btn' href="#">Консультація</a>
+                <button class='line-btn btn'>Консультація</button>
             </div>
         </div>
 
@@ -214,10 +237,6 @@
     </div>
     </div>
 
-
-    <script src="script/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async defer></script>
-
 </main>
 
 
@@ -252,5 +271,8 @@
 
 <script src="script/menu.js"></script>
 <!--  скріпти перед  закриваючим тегом body -->
+<script src="script/map.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async defer></script>
+<script src="script/btn.js"></script>
 
 </body>

@@ -1,14 +1,3 @@
-"use strict";
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-// function myFunction() {
-//     document.getElementById("myDropdown").classList.toggle("show");
-// }
-//
-// function myFunction2(self) {
-//     document.getElementById("myDropdown2").classList.toggle("show");
-// }
-
 var menuBtn = document.getElementsByClassName('dropbtn'); // беремо кнопку по класу
 
 for (var i = 0; i < menuBtn.length; i++) { //додаємо івент лістенер до конної кнопки, в нас їх 2 може бути більше
@@ -32,14 +21,13 @@ window.onclick = function(event) {
                 openDropdown.classList.remove('show');
             }
         }
-
-        // var dropdowns = document.getElementsByClassName("dropdown-content2");
-        //     var i;
-        //     for (i = 0; i < dropdowns.length; i++) {
-        //     var openDropdown = dropdowns[i];
-        //     if (openDropdown.classList.contains('show')) {
-        //         openDropdown.classList.remove('show');
-        //     }
-        // }
     }
 }
+
+$('.btn').click(function() {
+    $('#myModal').modal('show');
+  });
+
+$('.close').click(function() {
+$('#myModal').modal('hide');
+});

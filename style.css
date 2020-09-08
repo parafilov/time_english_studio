@@ -166,6 +166,24 @@ img {
     height: 42px;
 }
 
+@media (max-width: 767px) {
+    .hat .logo_ig {
+        height: 30px;
+        width: 30px;
+        background-size: cover;
+    }
+    .hat .logo_fb {
+        height: 30px;
+        width: 30px;
+        background-size: cover;
+    }
+    .hat .logo_mail {
+        height: 30px;
+        width: 30px;
+        background-size: cover;
+    }
+}
+
 .logo_time {
     text-align: center;
 }
@@ -259,8 +277,10 @@ button {
 
 @media (max-width: 767px) {
     .line-btn {
-        min-width: 140px;
-        font-size: 16px;
+        /* min-width: 140px;
+        font-size: 16px; */
+        min-width: 280px;
+        font-size: 24px;
     } 
 }
 
@@ -333,6 +353,7 @@ button {
 @media (max-width: 767px) {
     .section {
         font-size: 18px;
+        padding-inline-start: 0;
     }
 }
 
@@ -344,6 +365,14 @@ button {
     width: 64px;
     background: url(images/logo_ellipse_black.png);
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .section::before {
+        display: block;
+        position: unset;
+        margin: auto;
+    }
 }
 
 .section::after {
@@ -374,6 +403,7 @@ p, ul {
 @media (max-width: 767px) {
     p, ul {
         font-size: 12px;
+        text-align: center;
     }
 }
 

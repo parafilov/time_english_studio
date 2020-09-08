@@ -8,14 +8,14 @@ for (var i = 0; i < menuBtn.length; i++) { //додаємо івент ліст�
 }
 
 // Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (!event.target.matches('.dropbtn')) {
 
         // тут відбувається все те саме що описано з кнопкую, не потрібно дуюлювати код
 
         var dropdowns = document.getElementsByClassName("dropdown-content"); // беремо всі дропдауни
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
             if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
@@ -24,10 +24,32 @@ window.onclick = function(event) {
     }
 }
 
-$('.btn').click(function() {
+$('.btn').click(function () {
     $('#myModal').modal('show');
-  });
+});
 
-$('.close').click(function() {
-$('#myModal').modal('hide');
+$('.close').click(function () {
+    $('#myModal').modal('hide');
+});
+
+$('#form').submit(function (e) {
+    e.preventDefault();
+
+    $.ajax({
+        url: 'send.php',
+        data: 'action=send_form&' + $(this).serialize(),
+        success: function (data) {
+            $('form').trigger('reset');
+            $('.modal-content').append('<p class="message">Надіслано успішно</p>');
+            setTimeout(function () {
+                $('#myModal').modal('hide');
+                $('.modal-content').find('.message').remove();
+            }, 5000);
+        },
+        error: function (data) {
+            console.log('An error occurred.');
+        },
+    });
+
+    e.preventDefault();
 });

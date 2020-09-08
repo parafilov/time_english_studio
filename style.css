@@ -103,7 +103,12 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-bottom: 80px;
+}
+
+@media (max-width: 767px) {
+    .hat {
+        padding-bottom: 80px;
+    }
 }
 
 .soc-wrap {
@@ -406,6 +411,12 @@ p, ul {
         text-align: center;
     }
 }
+
+/* @media (max-width: 767px) {
+    .block ul li {
+        text-align: left;
+    }
+} */
 
 /* #map {
     width:100%;

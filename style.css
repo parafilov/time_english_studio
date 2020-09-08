@@ -169,17 +169,17 @@ img {
 @media (max-width: 767px) {
     .hat .logo_ig {
         height: 30px;
-        width: 30px;
+        width: 32px;
         background-size: cover;
     }
     .hat .logo_fb {
         height: 30px;
-        width: 30px;
+        width: 32px;
         background-size: cover;
     }
     .hat .logo_mail {
         height: 30px;
-        width: 30px;
+        width: 32px;
         background-size: cover;
     }
 }

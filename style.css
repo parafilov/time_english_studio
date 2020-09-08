@@ -566,4 +566,10 @@ input {
     border-radius: 20px;
     padding: 10px;
     outline: none;
+    width: 100%;
+}
+
+.modal-content p {
+    text-align: center;
+    font-size: 24px;
 }

@@ -53,7 +53,7 @@ img {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
     color: #FFFFFF;
     display: inline-block;
@@ -103,6 +103,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 
 .soc-wrap {

@@ -101,7 +101,8 @@ img {
 .hat {
     background-image: url(images/background_hat.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center
+    ;
 }
 
 .hat .container {
@@ -315,6 +316,7 @@ button {
     display: flex;
     align-items: stretch;
     justify-content: center;
+    height: 100vh;
 }
 
 @media (max-width: 767px) {
@@ -412,7 +414,7 @@ p, ul {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.36;
     color: #000000;
 }

@@ -101,6 +101,7 @@ img {
 .hat {
     background-image: url(images/background_hat.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .hat .container {

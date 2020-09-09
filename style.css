@@ -99,9 +99,12 @@ img {
 }
 
 .hat {
-    background-image: url(images/background_hat.png);
-    position: relative;
+    background-image: url(images/background_hat.jpg);
     background-size: cover;
+}
+
+.hat .container {
+    position: relative;
     height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;

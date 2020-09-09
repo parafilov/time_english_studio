@@ -231,6 +231,13 @@ img {
     padding-top: 40px;
 }
 
+/* .block .btn-holder {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
 button {
     border: none;
     outline: none;
@@ -452,11 +459,11 @@ p, ul {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
     line-height: 1.36px;
 }
 
 .slogan_b {
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -495,6 +502,12 @@ ul a:hover {
 
 .b_text {
     padding: 50px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
 }
 
 @media (max-width: 1199px) {

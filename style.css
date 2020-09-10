@@ -486,7 +486,7 @@ p, ul {
     width: 25px;
     background-size: cover;
     left: 0;
-    top: -1px
+    top: -1px;
 }
 
 .li_phone::before {
@@ -497,7 +497,7 @@ p, ul {
     width: 25px;
     background-size: cover;
     left: 0;
-    top: -1px
+    top: -1px;
 }
 
 .li_mail::before {
@@ -508,7 +508,7 @@ p, ul {
     width: 25px;
     background-size: cover;
     left: 0;
-    top: -1px
+    top: -1px;
 }
 
 .li_ig::before {
@@ -519,7 +519,7 @@ p, ul {
     width: 25px;
     background-size: cover;
     left: 0;
-    top: -1px
+    top: -5px;
 }
 
 .li_fb::before {
@@ -530,7 +530,7 @@ p, ul {
     width: 25px;
     background-size: cover;
     left: 0;
-    top: -1px
+    top: -5px;
 }
 
 ul a {

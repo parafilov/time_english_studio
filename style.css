@@ -470,6 +470,12 @@ p, ul {
 .b_text_address li {
     list-style-type: none;
     line-height: 1.7;
+    padding-left: 30px;
+    position: relative;
+}
+
+.b_text_address ul {
+    padding: 0;
 }
 
 .li_address::before {
@@ -479,7 +485,8 @@ p, ul {
     height: 25px;
     width: 25px;
     background-size: cover;
-    left: 60px;
+    left: 0;
+    top: -1px
 }
 
 .li_phone::before {
@@ -489,7 +496,8 @@ p, ul {
     height: 25px;
     width: 25px;
     background-size: cover;
-    left: 60px;
+    left: 0;
+    top: -1px
 }
 
 .li_mail::before {
@@ -499,7 +507,8 @@ p, ul {
     height: 25px;
     width: 25px;
     background-size: cover;
-    left: 60px;
+    left: 0;
+    top: -1px
 }
 
 .li_ig::before {
@@ -509,7 +518,8 @@ p, ul {
     height: 25px;
     width: 25px;
     background-size: cover;
-    left: 60px;
+    left: 0;
+    top: -1px
 }
 
 .li_fb::before {
@@ -519,7 +529,8 @@ p, ul {
     height: 25px;
     width: 25px;
     background-size: cover;
-    left: 60px;
+    left: 0;
+    top: -1px
 }
 
 ul a {

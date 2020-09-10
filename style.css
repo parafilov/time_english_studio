@@ -467,24 +467,59 @@ p, ul {
     font-weight: 600;
 }
 
-.li_address {
-    list-style-image: url(images/logo_map_small.png);
+.b_text_address li {
+    list-style-type: none;
+    line-height: 1.7;
 }
 
-.li_phone {
-    list-style-image: url(images/logo_phone_small.png);
+.li_address::before {
+    background: url(images/logo_map_small.png);
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    left: 60px;
 }
 
-.li_mail {
-    list-style-image: url(images/logo_mail_small.png);
+.li_phone::before {
+    background: url(images/logo_phone_small.png);
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    left: 60px;
 }
 
-.li_ig {
-    list-style-image: url(images/logo_ig_small.png);
+.li_mail::before {
+    background: url(images/logo_mail_small.png);
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    left: 60px;
 }
 
-.li_fb {
-    list-style-image: url(images/logo_fb_small.png);
+.li_ig::before {
+    background: url(images/logo_ig_small.png);
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    left: 60px;
+}
+
+.li_fb::before {
+    background: url(images/logo_fb_small.png);
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    left: 60px;
 }
 
 ul a {
